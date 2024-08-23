@@ -65,19 +65,21 @@ const createLinkedList = () => {
                 currentNode = currentNode.next
                 i++
             }
+        },
+        head: () => {
+            return head
         }
     }
 }
 
-const newLinkedList = createLinkedList()
-newLinkedList.addValue(5)
-newLinkedList.addValue(1)
-newLinkedList.addValue(3)
-newLinkedList.addValue(4)
-newLinkedList.addValue(7)
-newLinkedList.addValue(9)
-newLinkedList.findValue(3)
-newLinkedList.removeValue(3)
-newLinkedList.findValue(3)
-newLinkedList.print()
-
+// const newLinkedList = createLinkedList()
+// newLinkedList.addValue(5)
+// newLinkedList.addValue(1)
+// newLinkedList.addValue(3)
+// newLinkedList.addValue(4)
+// newLinkedList.addValue(7)
+// newLinkedList.addValue(9)
+// newLinkedList.findValue(3)
+// newLinkedList.removeValue(3)
+// newLinkedList.findValue(3)
+// newLinkedList.print()
